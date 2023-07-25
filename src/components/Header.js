@@ -21,7 +21,7 @@ const Header = () => {
       </div>
     </div> 
       <div className="moving-text-container">
-        <h1 className="moving-text">Welcome to Our Website</h1>
+        <h1 className="moving-text">Gurdwara Charan Kamal Sahib</h1>
       </div>
       <nav className={isOpen ? "nav-menu active" : "nav-menu"}>
         <ul>
