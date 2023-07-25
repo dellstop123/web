@@ -1,0 +1,72 @@
+/* src/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav li {
+    margin: 0 15px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .about {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+  }
+  
+  .contact {
+    background-color: #007bff;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+  }
+  
+  .contact div {
+    margin-top: 30px;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+  }
+  
