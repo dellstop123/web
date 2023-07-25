@@ -11,9 +11,6 @@ import "../styles/main.scss"
 const HomePage = () => {
   return (
     <div>
-      {/* <Helmet>
-        <title>Responsive Single-Page Website</title>
-      </Helmet> */}
       <Header />
       <Hero />
       <About />
