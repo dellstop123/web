@@ -1,0 +1,24 @@
+/* src/components/hero.scss */
+
+.hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  
+    .hero-content {
+      text-align: center;
+  
+      h1 {
+        font-size: 3rem;
+      }
+  
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  

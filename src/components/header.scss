@@ -1,0 +1,123 @@
+/* src/components/header.css */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Mobile Menu */
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 20px;
+  height: 1px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: transform 0.3s;
+}
+
+.active .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.moving-text-container {
+    // overflow: hidden;
+  }
+  
+  .moving-text {
+    font-size: 1rem;
+    animation: moveRightToLeft 10s linear infinite; /* Adjust the animation duration as needed */
+  }
+.active .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* src/components/rotatingImage.css */
+
+.rotating-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height and width as needed */
+    width: 100px;
+    overflow: hidden;
+    border: 1px solid #030000fd; /* Add border or other styles to the container as needed */
+  }
+  
+  .rotating-image {
+    width: 100%;
+    animation: rotate360 10s linear infinite; /* Adjust the animation duration as needed */
+  }
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+@keyframes moveRightToLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+
+@media screen and (max-width: 568px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+}
