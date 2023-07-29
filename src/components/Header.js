@@ -17,7 +17,7 @@ const Header = () => {
     <header>    
       <div className="logo-rotate-container">
       <div className="logo-rotate">
-        <img src={logo} alt="Logo" width="60" height="50" />
+        <img src={logo} alt="Logo" width="50" height="50" />
       </div>
     </div> 
       <div className="moving-text-container">
