@@ -26,5 +26,19 @@ module.exports = {
     {
       resolve: "gatsby-plugin-react-helmet"
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: 'Charan Kamal Sahib',
+        short_name: 'Gurudwara',
+        start_url: '/',
+        background_color: 'rgb(255, 255, 255);',
+        theme_color: '#FFFFFF',
+        display: 'standalone',
+        icon: "src/images/khanda.png"
+      },
+     
+    },
+    "gatsby-plugin-offline"
   ],
 };
