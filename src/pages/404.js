@@ -1,8 +1,8 @@
 import * as React from "react"
-import { graphql} from "gatsby"
+// import { graphql} from "gatsby"
 
-export default ({data}) => {
- console.log(data);
+export default () => {
+//  console.log(data);
   return(
     <div>
 
@@ -13,15 +13,15 @@ export default ({data}) => {
   )
 }
 
-export const query = graphql`{
-  allMarkdownRemark {
-    nodes {
-      frontmatter {
-        Title
-        Date
-        Keywords
-        image
-      }
-    }
-  }
-}`
+// export const query = graphql`{
+//   allMarkdownRemark {
+//     nodes {
+//       frontmatter {
+//         Title
+//         Date
+//         Keywords
+//         image
+//       }
+//     }
+//   }
+// }`

@@ -1,13 +1,6 @@
 /**
 //  * @type {import('gatsby').GatsbyConfig}
  */
-
-/*
-<title>Charan Kamal Sahib, JASROTA</title>
-        <meta name="description" content="This is the description of our website" ></meta>
-        <meta name="keywords" content="charan kamal, charan, kamal, sahib, charan kamal sahib, Jasrota gurudwara, guru nanak dev ji" ></meta>
-        <meta name="robots" content="index,follow"></meta>
-*/
 module.exports = {
   siteMetadata: {
      title: "Charan Kamal Sahib, JASROTA",
