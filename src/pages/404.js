@@ -1,5 +1,5 @@
 import * as React from "react"
-import {  graphql} from "gatsby"
+import { graphql} from "gatsby"
 
 export default ({data}) => {
  console.log(data);

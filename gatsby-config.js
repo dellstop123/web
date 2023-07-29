@@ -27,15 +27,9 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        footnotes: true,
-        gfm: true,
-        jsFrontmatterEngine: false,
-        path: `${__dirname}/src/`,
-      },     
-    },
+    // {
+    //   resolve: "gatsby-transformer-remark",    
+    // },
     {
       resolve: "gatsby-plugin-react-helmet"
     },
