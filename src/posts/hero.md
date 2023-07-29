@@ -1,0 +1,10 @@
+---
+
+Title: "My First Blog"
+Date: "28-07-2023"
+Keywords: "First Keywords, Second Keywords"
+image: "/static/gurudwarasahib-30bb4a3e371050b09760095f813fb159.jpeg"
+
+---
+
+Guru Nanak Dev Ji, the founder of the Sikh religion was born to Kalu Chand Mehta and mata Tripta on 15 April 1469 AD in the village of Talwandi near Lahore. Pandit Hardyal, the family's Brahmin priest was asked to make the horoscope of the child. The pandit and the midwife (Daulatan) agreed that the child had an exceptional aura. The horscope prepared by Pandit Hardyal predicted that Hindus and Muslims alike would acknowledge Nanak as a Philosopher-teacher and that he in turn would make no distinction between them. Guru Nanak was a precocious child. At the age of five he started asking questions about the purpose of life. During his stay at Sultanpur, a Muslim minstrel Mardana joined him and  the two organised singing of hymns in the town. Early morning Guru Nanak used to bathe and then attend to his daily durbar. During one of these early morning ablutions by the river, Guru Nanak had his first mystic experience (Communication with the God). He was taken in a vision to God's presence. He was offered a cup of nectar to drink and God charged him with the mission to pray and teach mankind how to pray and to get them rid of superstitions, idol worship etc. Guru Nanak hereafter travelled extensively within the country and as far as Ceylon and Baghdad. Guru Nanak's first travel (Udassi) has been recorded to East (Mathura, Benares, Gaya, Bengal Assam to name a few) and on return he stopped at Jaggannath Puri. After this Guru Nanak spent some years in Punjab. His second travel was towards south, Tamil land and Ceylon and back via western coast. The Third travel was to North as far as Tibet Ladakh and Jammu and Kashmir. The Guru's Last travel was to Mecca and Medina as far as Baghdad.

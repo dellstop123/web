@@ -3,14 +3,28 @@
 import React from "react"
 import background from "../images/gurudwarasahib.jpeg"
 import "./hero.scss"
+import {useStaticQuery, graphql} from "gatsby"
 
-const Hero = () => {
+const Hero = (props) => {
+    const data = useStaticQuery(graphql`
+    query {
+        allMarkdownRemark {
+          nodes {
+            frontmatter {
+              Title
+              Date
+              Keywords
+              image
+            }
+          }
+        }
+      }
+  `)
+  const image = data.allMarkdownRemark.nodes[0].frontmatter.image
   return (
-    <section className="hero" style={{ backgroundImage: `url(${background})` }}>
+    <section className="hero" style={{ backgroundImage: `url(${image})` }}>
       <div className="hero-content">
-        {/* <h1>Welcome to Our Website</h1>
-        <p>This is the Home section of our single-page website.</p> */}
-      </div>
+    </div>
     </section>
   )
 }
