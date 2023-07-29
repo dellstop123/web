@@ -1,50 +1,48 @@
 import React from "react"
-import {Helmet} from "react-helmet"
+import { Helmet } from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
 
-
-const SEO = ({title, description, keywords, image}) => (
-<StaticQuery 
-  query={query}
-  render={({
-    site : {
+const SEO = ({ title, description, keywords, image }) => (
+  <StaticQuery
+    query={query}
+    render={({
+      site: {
         siteMetadata: {
           defaultTitle,
-          defaultImage,
           defaultDescription,
+          defaultImage,
           defaultKeywords,
         },
       },
-  }) => {
-    const seo = {
+    }) => {
+      const seo = {
         title: title || defaultTitle,
-        image: '${image ? image : defaultImage}',
+        description: description || defaultDescription,
+        image: `${image ? image : defaultImage}`,
         keywords: keywords || defaultKeywords,
-        description: description || defaultDescription
-
-   }
-    return(
-    <Helmet>
-        <title>{seo.title}</title>
-        <meta name="description" content={seo.description} ></meta>
-        <meta name="keywords" content={seo.keywords} ></meta>
-        <meta name="robots" content="index,follow"></meta>
-    </Helmet>
-        )
-  }  
-}
-/>
+      }
+      return (
+        <Helmet>
+          <title>{seo.title}</title>
+          <meta name="image" content={seo.image} />
+          <meta name="description" content={seo.description} />
+          <meta name="keywords" content={seo.keywords} />
+          <meta name="robots" content="index,follow" />
+        </Helmet>
+      )
+    }}
+  />
 )
 
 export default SEO
 
-export const query = graphql`
-{
-    site{
-      siteMetadata{
+const query = graphql`
+  {
+    site {
+      siteMetadata {
         defaultTitle: title
-        defaultImage: image
         defaultDescription: description
+        defaultImge: image
         defaultKeywords: keywords
       }
     }
